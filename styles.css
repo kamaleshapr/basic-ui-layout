@@ -6,7 +6,10 @@ position: relative;
 z-index: -1;
 
 }
-
+.nav-link:hover{
+color:white;
+cursor:pointer;
+}
 
 .navbar-nav{
     margin-left: auto;
