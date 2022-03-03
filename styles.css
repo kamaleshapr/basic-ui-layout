@@ -1,0 +1,168 @@
+.title-sec{
+background-color: #ff4c68;
+color: #fff;
+height:100vh ;
+position: relative;
+z-index: -1;
+
+}
+
+
+.navbar-nav{
+    margin-left: auto;
+}
+#phoneimg{
+    padding: 3%;
+    margin-left: 0%;
+    margin-bottom:1% ;
+    width: 70%;
+    height:100% ;
+    transform: rotate(25deg);
+  
+   
+}
+
+h1{
+    
+font-family: "Montserrat-Bold";
+font-size: 3.5rem;
+line-height: 1.5;
+font-weight:900;
+}
+h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight:500;
+    font-weight: 500;
+}
+h3{
+    font-family:"ubuntu-Bold";
+    font-weight: bold;
+    font-size: 1.5rem;
+
+}
+p{
+    color: #8f8f8f;
+}
+.container-fluid{
+    padding: 3% 15%;
+}
+.navbar-brand{
+    font-family:"ubuntu";
+    font-weight: bold;
+    font-size: 2rem;
+}
+/* Navigation Bar */
+.navbar{
+    padding-bottom:60px;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size:1.2rem;
+    font-family:Montserrat-Light;
+}
+
+.download-button{
+margin:5% 3% 5% 0;
+}
+
+/* features */
+
+#features{
+    padding: 7% 15%;
+  
+    background: #fff;
+   
+}
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+.icon{
+    color: #ef8172;
+   padding-bottom:2px ;
+}
+.icon:hover{
+    color: #ff4c68;
+}
+
+/* testimonials */
+
+#testimonials{
+    padding:7% 15% ;
+    background-color: #6c29e9;
+    color: #fff;
+    text-align: center;
+    height:50vh ;
+    
+  
+
+}
+.testimonial-img{
+ width: 25%;
+ border-radius:50%;
+ margin: 20px;
+
+
+}
+.carousel-indicators{
+    top:230px ;
+}
+
+
+/* <section id="testimonials">
+<h2>I no longer to sniff dogs for love. I have found the hottest corgi on Tindog</h2>
+<img class="testimonial-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpciVElvmOkFwWC3FkHX5tp655_noLn0yEeQ&usqp=CAU" alt="">
+<em>Pebbles, New York</em>
+</section> */
+
+#pricing{
+    padding: 50px;
+    text-align: center;
+    background: rgb(252, 250, 250);
+}
+.card1{
+    padding: 3% 2%;
+}
+.btn-block{
+    width: 100%;
+}
+
+@media (max-width:900px) {
+    #phoneimg{
+        transform: rotate(0deg);
+        text-align: center;
+      
+    }
+    .title-sec{
+        height: 150vh;
+    }
+    .tittle-content{
+        text-align: center;
+    }
+
+
+
+
+
+}
+@media(min-width:900px) and (max-width:991px) {
+    .title-sec{
+        height: 200vh;
+}}
+/* @media (max-width:900px){
+    #phoneimg{
+        position: relative;
+        z-index: -1;
+    }
+} */
+
+
+
+
+
+
+
