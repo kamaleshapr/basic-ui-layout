@@ -3,7 +3,6 @@ background-color: #ff4c68;
 color: #fff;
 height:100vh ;
 position: relative;
-z-index: -1;
 
 }
 .nav-link:hover{
@@ -76,8 +75,8 @@ margin:5% 3% 5% 0;
 
 #features{
     padding: 7% 15%;
-  
     background: #fff;
+    position:relative;
    
 }
 .feature-box{
